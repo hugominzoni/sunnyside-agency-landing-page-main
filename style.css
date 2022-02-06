@@ -80,7 +80,7 @@ header {
   padding: 0 50px;
 }
 
-.burger{
+.burger {
   display: none;
 }
 
@@ -183,20 +183,11 @@ header {
   margin-bottom: 20px;
 }
 
-.transform {
-  grid-area: transform;
-}
-
-.standout {
-  grid-area: standout;
-}
-
 .box-transform {
   background-image: url(images/desktop/image-transform.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  grid-area: trans;
 }
 
 .box-standout {
@@ -204,7 +195,6 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  grid-area: stand;
 }
 
 .graphic {
@@ -212,7 +202,6 @@ header {
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  grid-area: graphic;
 }
 
 .photo {
@@ -220,7 +209,6 @@ header {
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  grid-area: photo;
 }
 
 .photo,
@@ -395,7 +383,7 @@ header {
 @media all and (max-width: 375px) {
   .menu {
     padding: 0 20px;
-    position:relative;
+    position: relative;
   }
 
   .menu-list {
@@ -403,7 +391,7 @@ header {
     position: relative;
   }
 
-  .burger{
+  .burger {
     display: flex;
     color: #fff;
     font-size: 30px;
@@ -423,6 +411,29 @@ header {
 
   .arrow-down img {
     height: 100%;
+  }
+
+  .box-transform {
+    grid-area: trans;
+  }
+
+  .box-standout {
+    grid-area: stand;
+  }
+
+  .graphic {
+    grid-area: graphic;
+  }
+
+  .photo {
+    grid-area: photo;
+  }
+  .transform {
+    grid-area: transform;
+  }
+
+  .standout {
+    grid-area: standout;
   }
 
   .section {
@@ -501,7 +512,6 @@ header {
     text-align: center;
     padding: 10px;
     font-family: "Barlow", sans-serif;
-    padd
   }
 
   .card-text {
